@@ -1,0 +1,77 @@
+<html>
+<head>
+<style> 
+.div1
+{
+  margin:20px 20px 20px 20px;
+  width: 100px;
+  height: 100px;
+  background: lightsalmon;
+  position:relative;
+  display:flex;
+  border-radius:15px;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  float:left;
+
+  animation: dora 8s ease-out infinite alternate;
+}
+
+@keyframes dora {
+  0%   
+  { left:0px; top:0px; transform:rotate(0deg); }
+  25%   
+  { left:500px; top:0px; transform:rotate(360deg); }
+  50%   
+  { left:500px; top:500px; transform:rotate(0deg); }
+  75%   
+  { left:0px; top:500px; transform:rotate(360deg); }
+
+  100%  
+  {  left:0px; top:0px; transform:rotate(0deg);}
+}
+.div2
+{
+  margin:20px 20px 20px 20px;
+  width: 100px;
+  height: 100px;
+  background: lightsalmon;
+  position:relative;
+  display:flex;
+  border-radius:15px;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+  float:right;
+  
+
+  animation:mora  8s ease-out infinite alternate;
+}
+
+@keyframes mora {
+  0%   
+  { right:0px; top:0px; transform:rotate(0deg); }
+  25%   
+  { right:500px; top:0px; transform:rotate(360deg); }
+  50%   
+  { right:500px; top:500px; transform:rotate(0deg); }
+  75%   
+  {right:0px; top:500px; transform:rotate(360deg); }
+
+  100%  
+  { right:0px; top:0px; transform:rotate(0deg);}
+}
+
+</style>
+</head>
+<body>
+
+<div class="div1">div1</div>
+<div class="div1">div1</div>
+
+<div class="div2">div2</div>
+<div class="div2">div2</div>
+
+</body>
+</html>
