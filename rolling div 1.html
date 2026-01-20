@@ -1,0 +1,44 @@
+<html>
+<head>
+<style> 
+.div1
+{
+  margin-top:25px;
+  width: 100px;
+  height: 100px;
+  background: thistle;
+  position:relative;
+  display:flex;
+  border-radius:15px;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+
+  animation: dora 5s ease-out infinite alternate;
+ 
+
+}
+@keyframes dora {
+  0%   
+  { 
+	left:0px;
+	transform:rotate(0deg);
+  }
+  100%  
+  {
+	 left:1500px;
+  	 transform:rotate(360deg);
+}
+  
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="div1">Rolling div</div><br>
+
+
+</body>
+</html>
